@@ -5,7 +5,6 @@ import links
 time = datetime.datetime.now()
 hrs, mins = time.hour, time.minute
 day = time.isoweekday()
-PATH = r'C:\Users\Ali R\Desktop\Code\Python\School Zoom Joiner\files\chromedriver.exe'
 link = ''
 #How many mins before class starts do you want it to start joining
 leeway = 2
@@ -36,8 +35,12 @@ def monday():
     elif hrs == 11 and mins >= 45-leeway or hrs == 12 and mins < 45-leeway: 
         link = links.pe
 
+    #12:45 - 1:05
+    elif hrs == 12 and mins >= 45-leeway or hrs == 13 and mins < 5-leeway:
+        link = links.assembly
+
     #1:45 - 3:00
-    elif hrs == 1 and mins >= 45-leeway or hrs == 2 or hrs == 3:
+    elif hrs == 1 and mins >= 45-leeway or hrs == 14 or hrs == 15:
         link = links.precalc
 
 def tuesday():
@@ -87,8 +90,13 @@ def wednesday():
     elif hrs == 11 and mins >= 45-leeway or hrs == 12 and mins < 45-leeway: 
         link = links.ap_history
     
+
+    #12:45 - 1:05
+    elif hrs == 12 and mins >= 45-leeway or hrs == 13 and mins < 5-leeway:
+        link = links.assembly
+
     #1:45 - 3:00
-    elif hrs == 1 and mins >= 45-leeway or hrs == 2 or hrs == 3:
+    elif hrs == 13 and mins >= 45-leeway or hrs == 14 or hrs == 15:
         link = links.islamic_studies
 
 
