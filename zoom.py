@@ -1,4 +1,4 @@
-from main import *
+from setup import *
 import webbrowser
 
 

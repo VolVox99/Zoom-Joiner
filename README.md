@@ -1,0 +1,1 @@
+When you run the zoom.py file, it will automatically join your correct class based on the weekday and time. This saves a lot of time as you no longer have to look through your schedule everytime and find the corresponding class and link and then open it.
