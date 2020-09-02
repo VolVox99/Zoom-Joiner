@@ -1,4 +1,4 @@
-ap_history = 'https://zoom.us/j/6122722385?pwd=Y3YwWGk4UzNxVWhQakwzMGJVR3lodz09'
+ap_history = 'https://zoom.us/j/91963905907?pwd=aDdaTU9EU25NUWI2VmdCeTgwSXZjQT09'
 quran = 'https://zoom.us/j/9099542785?pwd=cEZUYmxRMkVtYXJJY1hIMkN1U0M5UT09'
 us_govt = 'https://zoom.us/j/5136759783?pwd=VmV5VVVRSWsxRHlYNFlGakFWTm8rdz09'
 pe = 'https://zoom.us/j/3352636989?pwd=NE1YM1pMeFFDSFlWQWhjeksrRUxLZz09'
