@@ -1,7 +1,6 @@
 import datetime
 import links
 
-#If you want the code to work for yourself make a python file called links and add the links you want in there
 
 link = ''
 
