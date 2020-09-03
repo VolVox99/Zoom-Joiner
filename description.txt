@@ -1,1 +1,0 @@
-get all the class times and corrresponding zoom links from the spreadsheets and when you run this script it will join the correct zoom class for you.
