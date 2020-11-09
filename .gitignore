@@ -2,3 +2,5 @@ __pycache__
 test.py
 idea.txt
 description.txt
+/kivy_venv
+/activate.txt

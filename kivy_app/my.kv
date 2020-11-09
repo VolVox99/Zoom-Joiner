@@ -1,0 +1,33 @@
+
+<BackgroundColor@Widget>
+    background_color: 0, 0.5, 0.5, 1
+    canvas.before:
+        Color:
+            rgba: root.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+
+<MyLabel@Label+BackgroundColor>:
+    text: 'hey'
+
+
+<MyGrid>:
+    GridLayout:
+        cols: 2
+        rows: 2
+        size: root.width, root.height
+  
+    
+        MyLabel:
+        MyLabel: 
+        Button:
+            text: 'press me'
+            size_hint: 0.1, 0.5
+            
+        Button:
+            text: 'yes daddy'
+            background_color: 0, 1,0,1
+            size_hint: 0.1, 0.5
+            
